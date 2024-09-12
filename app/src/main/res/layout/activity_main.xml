@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="@string/enter_your_weight"
+        android:id="@+id/weightEditText"
+        android:autofillHints="weight"
+        android:inputType="number" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="@string/enter_your_height"
+      android:id="@+id/heightEditText"
+        android:inputType="number"
+        android:autofillHints="heightFeet"
+         />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="@string/enter_your_height_in_inches"
+        android:id="@+id/heightInchesEditText"
+        android:inputType="number"
+        android:autofillHints="heightInches"
+         />
+    <Button
+        android:id="@+id/CalculationBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_bmi"
+       android:layout_marginTop="11dp"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        />
+
+</LinearLayout>

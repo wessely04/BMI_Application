@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First  Application</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="enter_your_height">Enter your height(in feet)</string>
+    <string name="enter_your_height_in_inches">Enter your height(in Inches)</string>
+    <string name="you_re_over_weight">You\'re over weight</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="result">Result</string>
+</resources>
